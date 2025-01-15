@@ -1,5 +1,3 @@
-# Video To GIF Converter
- 
 # Video to GIF Converter
 
 This repository contains a simple web application built with Streamlit that converts video files into GIFs. The application allows users to upload a video, and it generates GIFs at regular intervals from the video.
@@ -32,7 +30,7 @@ This repository contains a simple web application built with Streamlit that conv
 
 3. Install the required Python packages:
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit moviepy
    ```
 
 4. Install FFmpeg:
@@ -60,7 +58,6 @@ This repository contains a simple web application built with Streamlit that conv
 ## File Details
 
 - **`app3.py`**: Main script for the Streamlit application.
-- **`requirements.txt`**: Contains the Python dependencies required for the project.
 
 ## Dependencies
 
@@ -73,10 +70,6 @@ The application uses the following libraries:
 
 - The application generates temporary files (videos and GIFs) during processing, which are cleaned up automatically after use.
 - FFmpeg is required for video duration detection and must be installed separately.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contributions
 
