@@ -75,7 +75,9 @@ The application uses the following libraries:
 
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 ## Acknowledgments
 
 Special thanks to the developers of Streamlit and MoviePy for their excellent tools.
-
